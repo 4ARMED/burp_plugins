@@ -1,3 +1,8 @@
+# Description: provides a JSON tab with beautified representation of the request/response. Note, you can't modify from this tab. Yet.
+# Author: Marc Wickenden
+# Issues: Kludgy hard-coded path to JRuby at the top of this script, needed on my machine, will need to be adapted on yours.
+#
+# You will need JRuby installed and registered with Burp Extender. You will also need the json gem installed.
 $:.unshift '/Library/Frameworks/JRuby.framework/Versions/Current/lib/ruby/1.9'
 
 require 'java'
