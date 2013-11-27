@@ -1,4 +1,4 @@
-burp_plugins
+Burp Extender
 ============
 
-Burp Professional Extender plugins/modules
+Plugins written for Burp Professional Extender.
